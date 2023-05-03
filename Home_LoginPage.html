@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form action="/url" method="GET">
+
+    <div class="home-section">
+    <div class="loginfield" id="login1">
+        <div class="image-section">
+        <img src="profile.png" class="menprofile" id="menpic">
+        <img src="womenpic.png" class="womenpic" id="women_pic">
+        </div>
+        <label class="firstname"><b>First Name</b> <input type="text" class="fname1" id="fnam">   </label><br>
+        <label class="lastname"><b>Last Name</b><input type="text" class="lname1" id="lnm">   </label><br>
+        <label class="Passowrd"><b>Password</b><input type="password" class="password1" id="pass"></i>   </label><br>
+       <label class="male">Male<input type="checkbox" id="malecheck" value="male" onclick="func()"></label><label class="female">Female<input type="checkbox" id="femalecheck" value="female" onclick="func2()"></label><br>
+        <label class="Email">Email &nbsp; &nbsp; &nbsp; &nbsp;<input type="email" placeholder="example@gmai.com" class="email1"  style="color:black"></i></label>
+    </div>
+    </div>
+    <button type="button" id="submit" onclick="submitbuttton()">Submit</button>
+
+
+<script src="func.js"></script>
+</body>
+</html>

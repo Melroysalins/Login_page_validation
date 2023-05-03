@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.home-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+   
+   
+}
+
+.loginfield{
+    
+    margin-top: 4rem;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    height:31rem;
+    padding-top: 19px;
+    padding-left: 1rem;;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px 2px rgb(209, 209, 209);
+}
+.image-section{
+    
+    display: flex;
+    justify-content: center;
+}
+.menprofile{
+    width:22%;
+    height: 22%;
+    
+    
+}
+.womenpic{
+    width:22%;
+    height: 22%;
+    display: none;
+}
+.firstname ,.fname1, .lastname,.lname1 ,.Passowrd ,.password1,.Email,.email1{
+    margin-top:3rem;
+    padding-left: 5rem;;
+    
+   
+}
+.female, .male{
+    margin-left: 10rem;;
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.fname1 ,.lname1 ,.password1,.email1{
+    margin-left: 2rem;
+    
+    border-radius: 12px;
+    width: 41%;
+    padding-left: 15px;;
+    height: 6%;
+}
+#submit{
+    margin: 3rem;
+  margin-left: 3rem;
+margin-left: 41rem;
+width: 10%;
+border-radius: 12px;
+border: none;
+height: 2rem;
+font-size: 16px;;
+background-color: aquamarine;
+font-weight: bold;
+box-shadow: 0px 4px 6px -2px rgb(0, 0, 0);
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+.errotext{
+    margin-left: 5rem;
+    
+    font-weight: bold;
+    color: red;
+}
+@media screen and (max-width: 500px){
+    .menprofile,.womenpic{
+        width: 26%;
+        height: 22%;
+    }  
+    .loginfield {
+        width: auto;
+    }
+    #submit{
+        margin-left:14rem;
+        width: 20%;
+    }
+
+} 
